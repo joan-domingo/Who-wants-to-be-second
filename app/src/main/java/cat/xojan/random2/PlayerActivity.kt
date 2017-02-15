@@ -59,7 +59,7 @@ class PlayerActivity : YouTubeBaseActivity(), YouTubePlayer.OnInitializedListene
 
     private fun logEvent(title: String) {
         val bundle = Bundle()
-        bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, title)
-        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle)
+        bundle.putString("video_selected", title)
+        mFirebaseAnalytics.logEvent("select_country", bundle)
     }
 }
