@@ -28,7 +28,10 @@ class CountryData {
             Country("Iran", "SVDR-y03XX4"),
             Country("Israel", "n-HXJ7M70kA"),
             Country("Australia", "A7RvBfZL1D8"),
-            Country("New Zealand", "Jp0zp3c-Al4")
+            Country("New Zealand", "Jp0zp3c-Al4"),
+            Country("India", "na1V6FrwHOM"),
+            Country("Malta", "9mrVYHmE_gA"),
+            Country("Serbia", "XcKkKKUviEg")
     )
 
     val sortedList = list.sortedBy { item -> item.title }
